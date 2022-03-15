@@ -65,9 +65,23 @@ width: 22VW;
     height:50vw; 
     width: 50vw;
     
+}.col h3{
+    color: white;
 }
 #row{
     margin-top: 2%;
-    
+    /* background-color: #333333; */
     width: 100%;
+}
+#form-delivery{
+    color: white;
+    margin-left: 2%;
+    
+}
+#dial{
+    background: url(../assets/pizza6.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
