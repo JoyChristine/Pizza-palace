@@ -1,0 +1,57 @@
+body{
+   margin:0;
+}
+.header{
+    /* background-image: url(../assets/pizza2.jpg); */
+    margin: 0%;
+}
+
+#right li {
+    float: right;
+    list-style: none;
+    display: inline-flex;
+    margin:1.3%;
+}
+#list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333333; */
+}
+
+#list a {
+    display: block;
+    color: white;
+    text-align: center;
+   ;
+    /* padding: 1vw; */
+    text-decoration: none;
+}
+#list a:hover{
+    /* background-color: #111111; */
+    transform: scale(1.4);
+}
+#home{
+    background: url(../assets/pizza2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.title{
+    font-family: 'Fredericka the Great', cursive;
+    color: #fff;
+    font-size: 4vw;
+    margin-top: -3%;
+    margin-left: 10%;
+}
+.statement b{
+    margin: 10%;
+    font-size: 4vw;
+    color: #fff;
+    font-family: 'Ubuntu';
+}
