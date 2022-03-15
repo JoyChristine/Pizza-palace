@@ -60,3 +60,14 @@ width: 22VW;
 #menu{
     background-color: #333333;
 }
+/* delivery-map */
+#map { 
+    height:50vw; 
+    width: 50vw;
+    
+}
+#row{
+    margin-top: 2%;
+    
+    width: 100%;
+}
