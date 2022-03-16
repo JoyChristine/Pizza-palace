@@ -19,7 +19,7 @@ body{
 }
 
 #list a {
-    /* display: block; */
+   font-size: 1.4vw;
     color: white;
     /* text-align: center; */
    
@@ -52,13 +52,9 @@ body{
     color: #fff;
     font-family: 'Ubuntu';
 }
-#about{
-   
-    /* background: url(../assets/pizza7.jpg);
-    
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat; */
+
+#about h2{
+    font-size: 3vw;
 }
 .col img{
 width: 22VW;
@@ -66,6 +62,7 @@ width: 22VW;
 .statement{
     margin-top: 10%;
     margin-left:10%;
+   
 }
 .statement h2{
     color: #fff;
@@ -84,39 +81,36 @@ width: 22VW;
 }
 /* delivery-map */
 #map { 
-    height:30vw; 
-    width: 30vw;
+    height:100%; 
+    width: 100%;
     /* margin-left: 40%; */
     
 }
 .col-md-4 h3{
     color: white;
+    font-size: 2vw;
 }
 
 
 #form-delivery{
     color: white;
     margin-left: 2%;
+    font-size: 1.5vw;
     
 }
-/* #row{
-     height: 100vh;
-    position: relative;
-    display: flex;
-    
-} */
+
 
 #row{
     width: 100%;
-    
+    background-color: #232123;
     margin-top: 2%;
     content: "";
-    background: url(../assets/pizza6.jpg);
+    /* background: url(../assets/pizza6.jpg);
     
     
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 .col{
     position: relative;
