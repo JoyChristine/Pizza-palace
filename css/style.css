@@ -7,6 +7,7 @@ body{
     float: right;
     list-style: none;
     display: inline-flex;
+    justify-content: end;
     margin:1.3%;
 }
 #list {
@@ -18,10 +19,10 @@ body{
 }
 
 #list a {
-    display: block;
+    /* display: block; */
     color: white;
-    text-align: center;
-   ;
+    /* text-align: center; */
+   
     /* padding: 1vw; */
     text-decoration: none;
 }
@@ -43,6 +44,7 @@ body{
     margin-top: -3%;
     margin-left: 10%;
 }
+/* about */
 .statement b{
     margin: 10%;
     font-size: 11vw;
@@ -51,7 +53,12 @@ body{
     font-family: 'Ubuntu';
 }
 #about{
-    width: 100%;
+   
+    /* background: url(../assets/pizza7.jpg);
+    
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; */
 }
 .col img{
 width: 22VW;
@@ -69,7 +76,7 @@ width: 22VW;
 }
 /* MENU */
 #menu{
-    background-color: #333333;
+    background-color: blueviolet;
 }
 #menu h1{
     color: #fff;
@@ -77,26 +84,40 @@ width: 22VW;
 }
 /* delivery-map */
 #map { 
-    height:50vw; 
-    width: 50vw;
+    height:30vw; 
+    width: 30vw;
+    /* margin-left: 40%; */
     
-}.col h3{
+}
+.col-md-4 h3{
     color: white;
 }
-#row{
-    margin-top: 2%;
-    /* background-color: #333333; */
-    width: 100%;
-}
+
+
 #form-delivery{
     color: white;
     margin-left: 2%;
     
 }
-#dial{
+/* #row{
+     height: 100vh;
+    position: relative;
+    display: flex;
+    
+} */
+
+#row{
+    width: 100%;
+    
+    margin-top: 2%;
+    content: "";
     background: url(../assets/pizza6.jpg);
-    height: 100vh;
+    
+    
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.col{
+    position: relative;
 }
