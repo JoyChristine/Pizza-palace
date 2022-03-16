@@ -56,9 +56,24 @@ body{
 .col img{
 width: 22VW;
 }
+.statement{
+    margin-top: 10%;
+    margin-left:10%;
+}
+.statement h2{
+    color: #fff;
+    font-size: 3vw;
+}
+.statement .piz{
+    font-family: 'Fredericka the Great', cursive;
+}
 /* MENU */
 #menu{
     background-color: #333333;
+}
+#menu h1{
+    color: #fff;
+    text-align: center;
 }
 /* delivery-map */
 #map { 
