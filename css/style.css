@@ -1,5 +1,6 @@
 body{
    margin:0;
+   background-color: #f2f2f2;
    
 }
 
@@ -37,13 +38,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-@media only screen and (min-width: 500px) {
-   .title{
-       font-size: 1221vw;
-     
 
-    }
-  }
 .title{
     font-family: 'Fredericka the Great', cursive;
     color: #fff;
@@ -110,22 +105,33 @@ body{
 /* order */
 #order{
     text-align: center;
-    margin-top: 2%;
+    background-color: #f2f2f2;
 }
-#order-btn{
-    /* animate__pulse */
+
+#order #order-btn{
+    text-emphasis-style: none;
+    border: none;
+    /* animation: pulse 1.5s infinite; */
+}
+#order-btn a{
+    text-align: center;
+    text-decoration: none;
+    border: none;
     color: #DE681D;
     font-family: 'Roboto Slab', serif;
-    /* animation: pulse 1.5s infinite; */
-    border: none;
     background-color: #333333;
-    /* font-size: 3vw; */
+    font-size: 3vw;
+   
 }
 @media only screen and (min-width: 768px) and (max-width: 960px){
     #col1{
         width:100% ;
+        
     }
     #story-img {
         width:100% !important ;
+    }
+    #home{
+        height: 100vh;
     }
 }
