@@ -37,6 +37,13 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+@media only screen and (min-width: 500px) {
+   .title{
+       font-size: 1221vw;
+     
+
+    }
+  }
 .title{
     font-family: 'Fredericka the Great', cursive;
     color: #fff;
@@ -44,20 +51,12 @@ body{
     margin-top: -3%;
     margin-left: 10%;
 }
-/* about */
 .statement b{
     margin: 10%;
     font-size: 11vw;
     
     color: #fff;
     font-family: 'Ubuntu';
-}
-
-#about h2{
-    font-size: 3vw;
-}
-.col img{
-width: 22VW;
 }
 .statement{
     margin-top: 10%;
@@ -71,47 +70,17 @@ width: 22VW;
 .statement .piz{
     font-family: 'Fredericka the Great', cursive;
 }
-/* MENU */
-#menu{
-    background-color: blueviolet;
-}
-#menu h1{
-    color: #fff;
-    text-align: center;
-}
-/* delivery-map */
-#map { 
-    height:100%; 
+/* abt */
+#row-about{
     width: 100%;
-    /* margin-left: 40%; */
+    margin-top: 5%;
     
 }
-.col-md-4 h3{
-    color: white;
-    font-size: 2vw;
+#about{
+    overflow: hidden;
 }
-
-
-#form-delivery{
-    color: white;
-    margin-left: 2%;
-    font-size: 1.5vw;
-    
-}
-
-
-#row{
+#story-img{
+    float: right;
     width: 100%;
-    background-color: #232123;
-    margin-top: 2%;
-    content: "";
-    /* background: url(../assets/pizza6.jpg);
-    
-    
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat; */
-}
-.col{
-    position: relative;
+    height: 100%;
 }
