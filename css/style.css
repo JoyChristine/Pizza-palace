@@ -140,3 +140,23 @@ body{
     margin-top:-5%;
     
 }
+/* order */
+.orderpizza{
+    padding: 5% 15% 5% 15%;
+    
+}
+#order{
+    /* background-color: #f2f2f2; */
+    background: url(../assets/pizza8.jpg);
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:5% 15% 5% 15%;
+    border-radius:3vw;
+}
+#order h2{
+    text-align: center;
+    color: #DE681D;
+    font-family: 'Roboto Slab', serif;
+}
