@@ -65,26 +65,28 @@ body{
 }
 .statement h2{
     color: #fff;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 .statement .piz{
     font-family: 'Fredericka the Great', cursive;
 }
 /* abt */
+#about{
+    background-color: #f2f2f2;
+}
 #row-about{
     /* width: 100%; */
     /* margin-top: 5%; */
     padding: 0% 5% 0% 11%;
-    background-color: #f2f2f2;
-    
+
 }
 #about{
     overflow: hidden;
 }
-#col1{
+#col1,#col2{
     z-index: 1;
 }
-.story{
+.story, .why{
     background-color: #fff;
     margin-top: 20%;
 }
@@ -104,4 +106,18 @@ body{
     width: 120%;
     height: 120%;
 }
+
 /* order */
+#order{
+    text-align: center;
+    margin-top: 2%;
+}
+#order-btn{
+    /* animate__pulse */
+    color: #DE681D;
+    font-family: 'Roboto Slab', serif;
+    /* animation: pulse 1.5s infinite; */
+    border: none;
+    background-color: #333333;
+    /* font-size: 3vw; */
+}
