@@ -192,15 +192,10 @@ $(document).ready(function() {
         }
 
 
-
-
-
-
-
-
-        let newOrder = order(flavour, size, crust, toppings, number, totalPriceOfPizza);
-        console.log(newOrder);
-        event.preventDefault();
+        //RUN BELOW CODE TO SEE IF ABOVE CALCULATIONS WORK
+        // let newOrder = order(flavour, size, crust, toppings, number, totalPriceOfPizza);
+        // console.log(newOrder);
+        // event.preventDefault();
 
 
 
