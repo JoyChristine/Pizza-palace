@@ -174,31 +174,21 @@ $(document).ready(function() {
  
         }
         switch (toppings) {
-            case toppings = "tomato":
+            case ("tomato"):
+            case ("mushroom"):
+            case ("greenpepper"):
                 totalPriceOfPizza = totalPriceOfPizza+ 80;
                 break;
-            case toppings = "mushroom":
-                totalPriceOfPizza= totalPriceOfPizza+ 80;
-                break;
-            case toppings = "greenpepper":
-                totalPriceOfPizza= totalPriceOfPizza+ 80;
-                break;
-            case toppings = "pineapple":
+            
+            case ("pineapple"):
+            case ("bacon"):
+            case ("mince"):
                 totalPriceOfPizza= totalPriceOfPizza+ 120;
                 break;
-            case toppings = "bacon":
-                totalPriceOfPizza= totalPriceOfPizza+ 120;
-                break;
-            case toppings = "mince":
-                totalPriceOfPizza= totalPriceOfPizza+ 120;
-                break;
-            case toppings = "beef":
+            case ("beef"):
+            case ("chicken"):
                 totalPriceOfPizza= totalPriceOfPizza+ 170;
                 break;
-            case toppings = "chicken":
-                totalPriceOfPizza= totalPriceOfPizza+ 170;
-                break;
-
         }
 
 
