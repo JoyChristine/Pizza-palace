@@ -161,6 +161,25 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 /* footer */
+/* contact us */
+#footer .quick-info li a {
+    color: #fff;
+    
+}
+#footer .quick-info li svg {
+    color: #f88020;
+    width: 1.3em;
+    height: 1.3em;
+    padding-left: 1%;
+}
+#footer .d-flex{
+    display: flex !important;
+    /* color: #fff; */
+    text-decoration: none;
+    
+}
+
+
 #footer{
     background-color: #202126;
     color: #888888;
