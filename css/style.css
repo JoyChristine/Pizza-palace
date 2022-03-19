@@ -146,6 +146,7 @@ body{
     padding: 5% 15% 5% 15%;
     
 }
+
 #order{
     /* background-color: #f2f2f2; */
     background: url(../assets/pizza8.jpg);
@@ -160,6 +161,23 @@ body{
     text-align: center;
     color: #DE681D;
     font-family: 'Roboto Slab', serif;
+}
+.order-summary{
+    background-color: #f2f2f2;
+}
+.order-summary{
+    padding-bottom: 2%;
+}
+.order-summary h2{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.order-summary .make , .order-summary .pick{
+    color: #fff;
+    background-color: #DE681D;
+    border: none;
+    box-shadow: none;
+    padding: 1% 1% 1% 1%;
+    border-radius: 3vw;
 }
 /* footer */
 /* contact us */
@@ -205,7 +223,7 @@ body{
 }
 #footer .subscribe .btn-submit{
     position: absolute;
-    background-color: #f88020;
+    background-color: #DE681D;;
     height:4vw;
     padding: 1% 2% 2% 2%;
     border-radius: 2vw;
