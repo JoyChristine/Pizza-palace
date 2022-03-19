@@ -1,52 +1,3 @@
-//store prices, crust ,size, toppingss in array
-//create loop such that 
-// let pizzaPrice = {
-//     small:600,
-//     medium:800,
-//     large:1000
-// }
-// let toppingPrice = {
-//     Tomato:80,
-//     Onions:80,
-//     Mushroom:80,
-//     Olives:120,
-//     Pineapple:120,
-//     Bacon:120,
-//     Mince:120,
-//     Beef:170,
-//     Chicken:170
-// };
-// let crust = {
-//     cr
-
-// }
-
-// function pizzaSize(price) {
-//     if (size === 'small'){
-//          return (price.small* 1);
-//     }else if (size === 'medium'){
-//         return (price.medium * 1);
-//     }else {
-//         return(price.large * 1);
-//     }
-// }
-
-// var prices = function () {
-//   price = 600
-//}
-// if(flavour === "pepperoni" && size === "small" && crust === "crispy"){
-//  totalpriceofpizza = (price * number) +200;
-//}
-
-
-
-
-
-
-
-
-
-
 
 // make-btn get all values filled in the form
 $(document).ready(function() {
@@ -201,7 +152,7 @@ $(document).ready(function() {
         //make list appear after pressing make order btn 
         $("#order-list").slideDown();
         //$("#order-list").text(" ");
-        $("#order-list").append ("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
+        $("#order-list").append ("<br>" + "Flavour :   " + newOrder.flavour + "<br>" + "Size :   "
         + newOrder.s + "<br>" + "Crust :     "
         + newOrder.c + "<br>" + "Toppings :     "
         + newOrder.t + "<br>" + " Number of pizzas :    "
@@ -234,7 +185,8 @@ $(document).ready(function() {
     $("#delivery").hide();
     // //make delivery form appear onclick the make delivery btn
     $(".make").click(function() {
-        $('#delivery').toggle();
+        $('#delivery').slideDown();
+        $('#order-list').slideUp();
      })
     // //alert customer that details have been recorded
     $('#submit-delivery').click(function(event) {
