@@ -186,9 +186,7 @@ body{
     margin-left: 20%;
     border-radius: 3vw;
 }
-#delivery{
-    display: none;
-}
+
 .delivery input{
     border: none;
 }
