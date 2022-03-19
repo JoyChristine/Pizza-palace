@@ -142,6 +142,7 @@ body{
 }
 /* order */
 .orderpizza{
+    background-color: #f2f2f2;
     padding: 5% 15% 5% 15%;
     
 }
@@ -213,7 +214,8 @@ body{
 }
 .footer-img{
     max-width: 100%;
-    height: auto;
+    height: 80%;
+    
 }
 .mr-4 svg, #footer h3{
     color: white;
@@ -225,12 +227,17 @@ body{
     #footer .subscribe .form-control, #footer .subscribe .btn-submit{
         height: 5vw;
     }
+    #instagram{
+        display: block;
+
+    }
    
 }
 @media only screen and (max-width: 558px) {
     #footer .subscribe .form-control, #footer .subscribe .btn-submit{
         height: 6vw;
     }
+    
    
 }
 @media only screen and (max-width: 466px) {
