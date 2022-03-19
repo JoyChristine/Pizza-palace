@@ -246,7 +246,7 @@ body{
     height: 80%;
     
 }
-.mr-4 svg, #footer h3{
+.mr-4 svg, #footer h4{
     color: white;
 }
 @media only screen and (max-width: 769px) {
