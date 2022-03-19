@@ -193,13 +193,27 @@ $(document).ready(function() {
 
 
         //RUN BELOW CODE TO SEE IF ABOVE CALCULATIONS WORK
-        // let newOrder = order(flavour, size, crust, toppings, number, totalPriceOfPizza);
-        // console.log(newOrder);
-        // event.preventDefault();
+        let newOrder = order(flavour, size, crust, toppings, number, totalPriceOfPizza);
+        console.log(newOrder);
+        event.preventDefault();
 
+
+        //make list appear after pressing make order btn 
+        $("#order-list").slideDown();
+        //$("#order-list").text(" ");
+        $("#order-list").append ("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
+        + newOrder.s + "<br>" + "Crust :     "
+        + newOrder.c + "<br>" + "Toppings :     "
+        + newOrder.t + "<br>" + " Number of pizzas :    "
+        + newOrder.n + "<br>" + "Total Price :  "
+        + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
+        
 
 
     });
+
+
+    
 });
 
 
@@ -218,11 +232,11 @@ $(document).ready(function() {
     });
     //hide delivery form
     $("#delivery").hide();
-    //make delivery form appear onclick the make delivery btn
+    // //make delivery form appear onclick the make delivery btn
     $(".make").click(function() {
         $('#delivery').toggle();
-    })
-    //alert customer that details have been recorded
+     })
+    // //alert customer that details have been recorded
     $('#submit-delivery').click(function(event) {
         var person = document.getElementById("fname").value;
         var street = document.getElementById("street").value;
