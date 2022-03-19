@@ -179,6 +179,13 @@ body{
     padding: 1% 1% 1% 1%;
     border-radius: 3vw;
 }
+/* delivery */
+.delivery {
+    background-color: red;
+    padding: 2% 2% 2% 2%;
+    width: 50%;
+    margin-left: 20%;
+}
 /* footer */
 /* contact us */
 #footer .quick-info li a {
