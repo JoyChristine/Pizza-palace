@@ -166,10 +166,57 @@ body{
     color: #888888;
     font-family: "Source Serif Pro", serif;
 }
+#footer .subscribe{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+/* #footer .form-control{
+    display: block;
+} */
+#footer .subscribe .form-control{
+    box-shadow: none;
+    border-radius: 3vw;
+    height: 4vw;
+    padding: 0% 10% 0 3%;
+    border: none;
+    color: #fff;
+    
+}
+#footer .subscribe .btn-submit{
+    position: absolute;
+    background-color: #f88020;
+    height:4vw;
+    padding: 1% 2% 2% 2%;
+    border-radius: 2vw;
+    float: inline-end;
+   
+}
 .footer-img{
     max-width: 100%;
     height: auto;
 }
 .mr-4 svg, #footer h3{
     color: white;
+}
+@media only screen and (max-width: 769px) {
+    #footer .subscribe{
+      width: 100%;
+    }
+    #footer .subscribe .form-control, #footer .subscribe .btn-submit{
+        height: 5vw;
+    }
+   
+}
+@media only screen and (max-width: 558px) {
+    #footer .subscribe .form-control, #footer .subscribe .btn-submit{
+        height: 6vw;
+    }
+   
+}
+@media only screen and (max-width: 466px) {
+    #footer .subscribe .form-control, #footer .subscribe .btn-submit{
+        height: 9vw;
+    }
+   
 }
