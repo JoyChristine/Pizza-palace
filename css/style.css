@@ -161,7 +161,15 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 /* footer */
+#footer{
+    background-color: #202126;
+    color: #888888;
+    font-family: "Source Serif Pro", serif;
+}
 .footer-img{
     max-width: 100%;
     height: auto;
+}
+.mr-4 svg, #footer h3{
+    color: white;
 }
