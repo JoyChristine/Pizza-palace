@@ -91,14 +91,14 @@
     <div class="orderpizza">
         <form action="" id="order">
             <h2>Customize your pizza order below</h2>
-            <select class="form-select" aria-label="Default select  example" required>
+            <select class="form-select" aria-label="Default select  example" id="size"required>
                 <option selected>Select Pizza Size</option>
                 <option value="1">Small @ sh. 600</option>
                 <option value="2">Medium @ sh. 800</option>
                 <option value="3">Large @ sh. 1000</option>
                 </select>
                 <br>
-            <select class="form-select" aria-label="Default select  example">
+            <select class="form-select" aria-label="Default select  example" id="flavour">
                 <option selected> Select your favourite flavour</option>
                 <option value="1">Pepperoni Pizza</option>
                 <option value="2">Meat Pizza</option>
@@ -108,13 +108,13 @@
                 <option value="6">Boerewors</option>
             </select>
             <br>
-            <select class="form-select" aria-label="Default select  example" required>
+            <select class="form-select" aria-label="Default select  example" id="crust" required>
                 <option selected>Select crust size</option>
-                <option value="1">Thin @ sh. 50</option>
-                <option value="2">Medium @ sh. 100</option>
-                <option value="3">Thick @ sh. 150</option>
+                <option value="1">Crispy @ sh. 50</option>
+                <option value="2">Stuffed @ sh. 100</option>
+                <option value="3">Gluten-free@ sh. 150</option>
             </select> <br>
-            <select class="form-select" aria-label="Default select  example" required>
+            <select class="form-select" aria-label="Default select  example"  id="toppings" required>
                 <option selected>Add Toppings of your choice</option>
                 <option value="tomato">Tomato @ sh. 80</option>
                 <option value="onions">Onions @ sh. 80</option>
@@ -123,7 +123,6 @@
                 <option value=""></option>
                 <option value="olives">Olives @ sh. 120</option>
                 <option value="pineapple">Pineapple @ sh. 120</option>
-                <option value="sweetcorn">Sweet Corn @ sh. 120</option>
                 <option value="macon">Macon @ sh. 120</option>
                 <option value="mince">Mince @ sh. 120</option>
                 <option value=""></option>
@@ -133,14 +132,16 @@
             <label for="inputPizza" class="order-number"></label>
             <input type="number" class="form-control" id="pizzaNumber" placeholder="Number of pizza's" required min="1">
             <br>
-            <button class="btn btn-primary">make order</button>
+            <button class="btn btn-primary" id="make-order">make order</button>
             
             
         </form>
    </div>
    <div class="order-summary text-center">
-       <h2>You've ordered</h2>
-       <ol id="order-list" class="text-center sum"></ol>
+       <h2>Your order;</h2>
+       <ol id="order-list" class="text-center sum">
+          
+       </ol>
         <form action="" class="delivery text-center" id="delivery">
            
             <input type="text" id="fname" name="fname" class="form-control" placeholder="Enter your name" required><br>
@@ -152,9 +153,6 @@
             
 
         </form>
-
-
-
        <button class="make">Make delivery</button> &nbsp;
        <button class="pick">Pick up</button>
    </div>
@@ -162,7 +160,7 @@
     <footer id="footer" style="overflow: hidden;">
         <div class="row">
             <div class="col-md pr-md-5 mb-4 mb-md-0">
-                <h3>Contact us </h3>
+                <h4>Contact us </h4>
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam itaque unde facere repellendus, odio et iste voluptatum aspernatur ratione mollitia tempora eligendi maxime est, blanditiis accusamus. Incidunt, aut, quis!</p>
                 <ul class="list-unstyled quick-info mb-4">
                     <li>
@@ -181,7 +179,7 @@
                 </form>
             </div>
             <div class="col-md mb-4 mb-md-0">
-                <h3>Latest Tweet</h3>
+                <h4>Latest Tweet</h4>
                 <ul class="list-unstyled tweets">
                     <li class="d-flex">
                 <div class="mr-4">
@@ -207,7 +205,7 @@
                 </ul>
                 </div>
                 <div class="col-md-3 mb-4 mb-md-0">
-                <h3>Instagram</h3>
+                <h4>Instagram</h4>
                 <div class="row" id="instagram">
                     <div class="col-md-6" id="insta-pics" >
                         <img src="assets/pizza6.jpg" alt="" class="footer-img" style="padding-bottom:5%;">
