@@ -185,9 +185,12 @@ $(document).ready(function() {
     $("#delivery").hide();
     // //make delivery form appear onclick the make delivery btn
     $(".make").click(function() {
-        $('#delivery').toggle();
+        $('#delivery').slideDown();
         $('#order-list').slideUp();
-     })
+    })
+    $("#submit-delivery").click(function() {
+        $("#delivery").slideUp();
+    })
     // //alert customer that details have been recorded
     $('#submit-delivery').click(function(event) {
         var person = document.getElementById("fname").value;
