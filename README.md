@@ -26,7 +26,27 @@ code . or atom . depending on the text editor of your choice.
 * HTML
 * CSS
 * JavaScript
+* Jquery
+* Bootstrap
 
+## Development
+
+To make advancements/modifications, follow these steps:
+
+- Fork the repository
+- Create a new branch (`git branch gh-pages-v2`)
+- Make the appropriate changes in the files
+- Add changes made
+- Commit your changes (`git commit -m 'Improve feature'`)
+- Push to the branch (`git push origin gh-pages-v2`)
+- Create a Pull Request
+
+## To-Do
+1. User can choose more than 1 topping.
+2. User can make several orders of different types of pizza
+3. Incorporate constructors & prototypes
+4. Find shorter way of writing switch & if else statements.
+5. Validate submit buttons
 
  ## Contact Information
 If you have any question or contributions that would better this app, please email me at [joychristin2@gmail.com]
