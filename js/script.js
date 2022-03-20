@@ -153,7 +153,7 @@ $(document).ready(function() {
         //make list appear after pressing make order btn 
         $("#order-list").slideDown();
         //$("#order-list").text(" ");
-        $("#order-list").append ("<br>" + "Flavour :   " + newOrder.flavour + "<br>" + "Size :   "
+        $("#order-list").append ("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
         + newOrder.s + "<br>" + "Crust :     "
         + newOrder.c + "<br>" + "Toppings :     "
         + newOrder.t + "<br>" + " Number of pizzas :    "
