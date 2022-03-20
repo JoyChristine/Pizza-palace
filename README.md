@@ -16,9 +16,9 @@ A live demo of this project is available at: [Pizza Palace](https://joychristine
  ## Installation / Setup instruction
 Open Terminal {Ctrl+Alt+T}
 
-<!-- git clone https://github.com/JoyChristine/Delani-Studio.git -->
+ git clone https://joychristine.github.io/Pizza-palace.git 
 
-<!-- cd Delani Studio -->
+cd Pizza-palace
 
 code . or atom . depending on the text editor of your choice.
 
