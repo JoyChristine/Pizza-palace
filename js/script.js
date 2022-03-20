@@ -15,6 +15,7 @@ $(document).ready(function() {
         }
        
         let price, totalPriceOfPizza;
+        //If else -switch 
         switch (flavour) {
             //case flavour = "pepperoni" || "hawaiian" || "bbq":
             case flavour = "pepperoni":
