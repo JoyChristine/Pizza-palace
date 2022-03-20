@@ -4,6 +4,9 @@ body{
    cursor: pointer;
    
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 #right li {
     float: right;
@@ -21,7 +24,7 @@ body{
 }
 
 #list a {
-   font-size: 1.4vw;
+   /* font-size: 1.4vw; */
     color: white;
     /* text-align: center; */
    
@@ -43,17 +46,10 @@ body{
 .title{
     font-family: 'Fredericka the Great', cursive;
     color: #fff;
-    font-size: 4vw;
-    margin-top: -3%;
+    font-size: 5vw;
     margin-left: 10%;
 }
-.statement b{
-    margin: 10%;
-    font-size: 11vw;
-    
-    color: #fff;
-    font-family: 'Ubuntu';
-}
+
 .statement{
     margin-top: 10%;
     margin-left:10%;
@@ -61,18 +57,30 @@ body{
 }
 .statement h2{
     color: #fff;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 .statement .piz{
     font-family: 'Fredericka the Great', cursive;
+    font-size: 4vw;
+    animation: bounce 2s infinite;
 }
 @media only screen and (max-width: 769px) {
     #home{
-        height: auto;
+    background: linear-gradient(to bottom,rgba(0,0,0, 0),rgba(0,0,0, 100)),url(../assets/pizza4.jpg);
+    
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     }
     
    
+   
 }
+
+
+
+
 /* abt */
 #about{
     background-color: #f2f2f2;
@@ -249,9 +257,12 @@ body{
     float: inline-end;
    
 }
+#instagram{
+    margin-right: 1%;
+}
 .footer-img{
     max-width: 100%;
-    height: 80%;
+    height: 9vw;
     
 }
 .mr-4 svg, #footer h4{
@@ -264,9 +275,17 @@ body{
     #footer .subscribe .form-control, #footer .subscribe .btn-submit{
         height: 5vw;
     }
-    #instagram{
-        display: block;
-
+    #insta-pics, #insta-pics2{
+       display: flex;
+       
+    }
+    #insta-pics img, #insta-pics2 img{
+       width: 50%;
+       padding: 2%;
+       height: 40vw;
+    }
+    #insta-pics img:first-child, #insta-pics2 img:first-child{
+        height: 43vw;
     }
    
 }
