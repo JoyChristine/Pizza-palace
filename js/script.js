@@ -185,7 +185,7 @@ $(document).ready(function() {
     $("#delivery").hide();
     // //make delivery form appear onclick the make delivery btn
     $(".make").click(function() {
-        $('#delivery').slideDown();
+        $('#delivery').toggle();
         $('#order-list').slideUp();
      })
     // //alert customer that details have been recorded
