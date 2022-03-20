@@ -11,7 +11,7 @@ Also the pizza can be delivered or one can pick up at the store.<br>
 
 
  ## Live Page
-<!-- A live demo of this project is available at: [Msafiri Express](https://msafiriexpress.herokuapp.com/) -->
+A live demo of this project is available at: [Pizza Palace](https://joychristine.github.io/Pizza-palace/)
 
  ## Installation / Setup instruction
 Open Terminal {Ctrl+Alt+T}
